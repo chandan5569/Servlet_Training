@@ -30,5 +30,12 @@
     <input type="submit">
 </form>
 
+<h1>Calling Servlet from one Servlet to other.</h1>
+<form action="addt">
+    enter 1 num: <input type="text" name="num1"><br>
+    enter 2 num: <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
 </body>
 </html>
