@@ -1,13 +1,34 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>JSP - Hello World</title>
-</head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<h1>Addition Operation: </h1>
+<form action="add">
+    enter 1 num: <input type="text" name="num1"><br>
+    enter 2 num: <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+<h1>Subtraction Operation: </h1>
+<form action="sub">
+    enter 1 num: <input type="text" name="num1"><br>
+    enter 2 num: <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
+<h1>Square Operation after Addition of two numbers: </h1>
+<form action="square">
+    enter 1 num: <input type="text" name="num1"><br>
+    enter 2 num: <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
+<h1>Division Operation of two numbers: </h1>
+<form action="division">
+    enter 1 num: <input type="text" name="num1"><br>
+    enter 2 num: <input type="text" name="num2"><br>
+    <input type="submit">
+</form>
+
 </body>
 </html>
